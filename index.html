@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#17120f">
+  <title>کافه پیانو | طعم آرامش، نت به نت</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header" id="header">
+    <a href="#home" class="logo">کافه <span>پیانو</span></a>
+
+    <button class="menu-toggle" id="menuToggle" aria-label="باز کردن منو">
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav class="nav" id="nav">
+      <a href="#home">خانه</a>
+      <a href="#menu">منوی کافه</a>
+      <a href="#piano">پیانو بنواز</a>
+      <a href="#about">درباره ما</a>
+      <a href="#contact">تماس</a>
+    </nav>
+
+    <a class="header-button" href="#menu">دیدن منو</a>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <span class="eyebrow">یک فنجان قهوه، یک قطعه موسیقی</span>
+        <h1>اینجا هر لحظه،<br>نتی برای <span>آرامش</span> است.</h1>
+        <p>
+          به کافه پیانو خوش آمدید؛ جایی برای نوشیدن قهوه‌ای خوش‌عطر،
+          شنیدن موسیقی دلنشین و ساختن لحظه‌هایی که دوست دارید طولانی‌تر شوند.
+        </p>
+        <div class="hero-actions">
+          <a href="#menu" class="button button-primary">منوی کافه</a>
+          <a href="#piano" class="button button-outline">یک نت بنواز</a>
+        </div>
+        <div class="hero-note">قهوه تازه‌دم <span>·</span> موسیقی زنده <span>·</span> حال خوب</div>
+      </div>
+
+      <div class="hero-art" aria-hidden="true">
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+        <div class="coffee-cup">
+          <div class="cup-steam steam-one"></div>
+          <div class="cup-steam steam-two"></div>
+          <div class="cup-top"><span>♪</span></div>
+          <div class="cup-body"></div>
+          <div class="cup-handle"></div>
+          <div class="saucer"></div>
+        </div>
+        <span class="floating-note note-one">♪</span>
+        <span class="floating-note note-two">♫</span>
+        <span class="floating-star">✦</span>
+      </div>
+    </section>
+
+    <section class="menu-section section" id="menu">
+      <div class="section-heading">
+        <span class="eyebrow">طعم‌هایی برای هر سلیقه</span>
+        <h2>منوی <span>کافه پیانو</span></h2>
+        <p>از قهوه‌های کلاسیک تا دسرهای دست‌ساز؛ انتخاب با شماست.</p>
+      </div>
+
+      <div class="menu-tabs" role="tablist" aria-label="دسته‌بندی منو">
+        <button class="tab active" data-category="coffee">قهوه</button>
+        <button class="tab" data-category="cold">نوشیدنی سرد</button>
+        <button class="tab" data-category="tea">چای و دمنوش</button>
+        <button class="tab" data-category="cake">کیک و دسر</button>
+        <button class="tab" data-category="food">صبحانه و میان‌وعده</button>
+      </div>
+
+      <div class="menu-grid" id="menuGrid"></div>
+    </section>
+
+    <section class="piano-section section" id="piano">
+      <div class="section-heading">
+        <span class="eyebrow">موسیقی را خودت شروع کن</span>
+        <h2>یک نت برای <span>حال خوب</span></h2>
+        <p>روی کلاویه‌ها بزن و ملودی خودت را بساز. صدا با اولین لمس فعال می‌شود.</p>
+      </div>
+
+      <div class="piano-box">
+        <div class="piano-label">
+          <span>پیانوی کافه</span>
+          <span class="sound-status" id="soundStatus">برای نواختن، یک کلاویه را لمس کن</span>
+        </div>
+        <div class="keyboard" id="keyboard" aria-label="پیانوی مجازی"></div>
+        <p class="piano-hint">روی موبایل هم می‌توانی کلاویه‌ها را لمس کنی.</p>
+      </div>
+    </section>
+
+    <section class="about-section section" id="about">
+      <div class="about-copy">
+        <span class="eyebrow">قصه ما</span>
+        <h2>برای مکثی کوتاه<br>در میان روزهای شلوغ</h2>
+        <p>
+          کافه پیانو با یک ایده ساده شکل گرفت: فضایی گرم بسازیم که در آن
+          عطر قهوه و صدای موسیقی کنار هم باشند. اینجا می‌توانی با دوستانت
+          گپ بزنی، کتاب بخوانی، کار کنی یا فقط از لحظه لذت ببری.
+        </p>
+        <a href="#contact" class="text-link">منتظر دیدارت هستیم <span>←</span></a>
+      </div>
+
+      <div class="stats">
+        <div class="stat-card"><strong>۱۲+</strong><span>نوشیدنی محبوب</span></div>
+        <div class="stat-card"><strong>۷</strong><span>روز در هفته</span></div>
+        <div class="stat-card"><strong>۱۰۰٪</strong><span>قهوه تازه‌دم</span></div>
+        <div class="stat-card"><strong>♪</strong><span>موسیقی هر روز</span></div>
+      </div>
+    </section>
+
+    <section class="quote-section">
+      <span class="quote-symbol">“</span>
+      <p>بعضی لحظه‌ها را باید با یک فنجان قهوه و یک قطعه موسیقی زندگی کرد.</p>
+      <span class="quote-caption">کافه پیانو</span>
+    </section>
+
+    <section class="contact-section section" id="contact">
+      <div>
+        <span class="eyebrow">سری به ما بزن</span>
+        <h2>میزت را برای یک<br><span>لحظه خوب</span> آماده کنیم؟</h2>
+      </div>
+      <div class="contact-details">
+        <p>برای رزرو میز یا پرسیدن درباره منو با ما در تماس باش.</p>
+        <a href="tel:+982112345678">۰۲۱-۱۲۳۴۵۶۷۸</a>
+        <span>تهران، خیابان بهار، کوچه ترانه، پلاک ۱۲</span>
+        <span>هر روز، ساعت ۸ صبح تا ۱۱ شب</span>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a href="#home" class="logo">کافه <span>پیانو</span></a>
+    <p>طعم آرامش، نت به نت.</p>
+    <span>© کافه پیانو</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
